@@ -8,7 +8,7 @@ As you learned in Phase 1, your computer uses a call-stack when it executes code
 
 Stacks are simple data structures, but they're powerful too. A simple infix (e.g. 3 + 4) expression parser can be produced using nothing but stacks, queues and the [Shunting-yard algorithm](http://en.wikipedia.org/wiki/Shunting-yard_algorithm), and executed using a stack-based [reverse-polish notation calculator](http://en.wikipedia.org/wiki/Reverse_Polish_notation).
 
-Most importantly for us, they're a classic example of a first-in-last-out (FIFO) data structure. FIFO and LIFO (last-in-first-out) are a useful part of your technical vocabulary as you reason about data and how it's processed.
+Most importantly for us, they're a classic example of a last-in-first-out (LIFO) data structure. FIFO and LIFO (last-in-first-out) are a useful part of your technical vocabulary as you reason about data and how it's processed.
 
 ## Release 1: Implement the Stack
 
